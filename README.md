@@ -30,7 +30,7 @@ The steps are outlined as follows:
 * Execute `create_disk.sh`. This will create a ext2 raw image called `easyos.img`.
 * fdisk will ask you for input.
 * `Command (m for help): n`
-* `Partition type<br>
+* `Partition type`<br>
    `p   primary (0 primary, 0 extended, 4 free)`<br>
    `e   extended (container for logical partitions)`<br>
 Select (default p): p`
