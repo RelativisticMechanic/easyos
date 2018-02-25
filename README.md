@@ -28,6 +28,18 @@ data to the disk image and `/dev/loop0` and `/dev/loop1` as loopback devices whi
 The steps are outlined as follows:
 
 * Execute `create_disk.sh`. This will create a ext2 raw image called `easyos.img`.
+* fdisk will ask you for input.
+* `Command (m for help): n`
+* `Partition type<br>
+   p   primary (0 primary, 0 extended, 4 free)<br>
+   e   extended (container for logical partitions)<br>
+Select (default p): p`
+* Choose defaults on the next inputs.
+* `Created a new partition 1 of type 'Linux' and of size 63 MiB. <br>
+Command (m for help): w`
+* The above will flush the disk image to the disk.
+* You will be asked for your password to allow for superuser privileges.
+* grub will then be installed on the disk image. (this might take some time)
 * Once done, you may modify `compile_kernel.sh`, and execute it. This will create an `easyoskrnl` in the `./boot/` directory.
 * Now, run `execute.sh` and _et voila_! You have a working kernel running under qemu.
 

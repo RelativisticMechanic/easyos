@@ -9,4 +9,4 @@ $AS x86_init.s -o x86_init.o
 $CC -c x86_init.c -o x86_init_c.o $CFLAGS
 $CC -T ./x86_link.ld -o easyoskrnl -ffreestanding -nostdlib $LDFILES -lgcc
 $DEL *.o
-mv ./easyos ../boot/
+mv ./easyoskrnl ../boot/
