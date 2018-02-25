@@ -31,12 +31,12 @@ The steps are outlined as follows:
 * fdisk will ask you for input.
 * `Command (m for help): n`
 * `Partition type<br>
-   p   primary (0 primary, 0 extended, 4 free)<br>
-   e   extended (container for logical partitions)<br>
+   `p   primary (0 primary, 0 extended, 4 free)`<br>
+   `e   extended (container for logical partitions)`<br>
 Select (default p): p`
 * Choose defaults on the next inputs.
-* `Created a new partition 1 of type 'Linux' and of size 63 MiB. <br>
-Command (m for help): w`
+* `Created a new partition 1 of type 'Linux' and of size 63 MiB.` <br>
+`Command (m for help): w`
 * The above will flush the disk image to the disk.
 * You will be asked for your password to allow for superuser privileges.
 * grub will then be installed on the disk image. (this might take some time)
