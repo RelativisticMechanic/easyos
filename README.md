@@ -33,7 +33,7 @@ The steps are outlined as follows:
 * `Partition type`<br>
    `p   primary (0 primary, 0 extended, 4 free)`<br>
    `e   extended (container for logical partitions)`<br>
-Select (default p): p`
+`Select (default p): p`
 * Choose defaults on the next inputs.
 * `Created a new partition 1 of type 'Linux' and of size 63 MiB.` <br>
 `Command (m for help): w`
