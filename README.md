@@ -42,7 +42,8 @@ The steps are outlined as follows:
 * grub will then be installed on the disk image. (this might take some time)
 * Once done, you may modify `compile_kernel.sh`, and execute it. This will create an `easyoskrnl` in the `./boot/` directory.
 * Now, run `execute.sh` and _et voila_! You have a working kernel running under qemu.
-[A screenshot](https://i.imgur.com/yyDzNPt.png)
+![A screenshot](https://i.imgur.com/yyDzNPt.png)
+
 Critcism
 ---
 
